@@ -1,6 +1,8 @@
 export const button = {
     height: 35,
     color: '#fff',
+    fontFamily: 'Lato',
+    fontWeight: '100',
     backgroundColor: 'white',
     marginHorizontal: 5,
     marginVertical: 5,
@@ -31,4 +33,8 @@ export const buttonSuccess = {
 export const buttonDanger = {
     ...button,
     backgroundColor: '#dd0909'
+}
+
+export const disabledButton = {
+    backgroundColor: '#00000069'
 }

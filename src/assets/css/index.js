@@ -1,13 +1,29 @@
-import { StyleSheet } from 'react-native'
-import { container } from './layout'
-import { button, buttonPrimary, buttonSuccess, buttonDanger } from './button'
-import { whiteText } from './utils'
+import {StyleSheet} from 'react-native';
+import {container, sectionHeaderContainer, sectionHeaderText} from './layout';
+import {formGroup, input, inputError, label, picker} from './form';
+import {
+  button,
+  buttonPrimary,
+  buttonSuccess,
+  buttonDanger,
+  disabledButton,
+} from './button';
+import {whiteText, redText} from './utils';
 
 export const styles = StyleSheet.create({
-    container,
-    button,
-    buttonPrimary,
-    buttonSuccess,
-    buttonDanger,
-    whiteText
-})
+  container,
+  sectionHeaderContainer,
+  sectionHeaderText,
+  button,
+  buttonPrimary,
+  buttonSuccess,
+  buttonDanger,
+  disabledButton,
+  whiteText,
+  redText,
+  formGroup,
+  input,
+  inputError,
+  label,
+  picker,
+});

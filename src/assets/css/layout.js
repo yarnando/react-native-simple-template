@@ -14,3 +14,13 @@ export const container = {
     shadowRadius: 3.84,
     elevation: 5,                  
 }
+
+export const sectionHeaderContainer = {
+    flexDirection: 'row'
+}
+
+export const sectionHeaderText = {
+    fontSize: 17,
+    marginLeft: 5,
+    paddingBottom: 5
+}
